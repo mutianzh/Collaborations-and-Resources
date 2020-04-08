@@ -18,9 +18,9 @@ limitations under the License.
 ## Netlist Parser Dependency
 
 ```bash
-git clone https://github.com/USCPOSH/Sanitizer.git
+git clone https://github.com/USCPOSH/Collaborations-and-Resources.git
 
-cd Sanitizer/netlist-parser
+cd Collaborations-and-Resources/Sanitizer/netlist-parser
 
 make
 ```
@@ -31,7 +31,7 @@ Rerun `make` command when the grammar `.g4` files are changed.
 ## USC Netlist Sanitizer Code
 
 ```bash
-cd Sanitizer/posh
+cd ../Sanitizer/posh
 
 sudo pip install -r requirements-dev.txt
 ```
